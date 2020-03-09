@@ -72,19 +72,6 @@ F 3 "" H 5400 4650 50  0001 C CNN
 	1    5400 4650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:CP C2
-U 1 1 5E603004
-P 7500 2850
-F 0 "C2" V 7245 2850 50  0000 C CNN
-F 1 "15uF" V 7336 2850 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.7" H 7538 2700 50  0001 C CNN
-F 3 "~" H 7500 2850 50  0001 C CNN
-	1    7500 2850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7350 2850 6750 2850
 Connection ~ 6750 2850
 $Comp
 L Device:R R3
@@ -99,8 +86,6 @@ F 3 "~" H 8050 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8050 3450 8050 2850
-Wire Wire Line
-	8050 2850 7650 2850
 Wire Wire Line
 	8050 3750 8050 4650
 $Comp
@@ -262,21 +247,6 @@ F 3 "" H 9500 4200 50  0001 C CNN
 	1    9500 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 2650 3800 2650
-$Comp
-L Device:C C?
-U 1 1 5E67DF73
-P 3250 2650
-AR Path="/5E6165F4/5E67DF73" Ref="C?"  Part="1" 
-AR Path="/5E67DF73" Ref="C1"  Part="1" 
-F 0 "C1" V 3450 2600 50  0000 L CNN
-F 1 "100nF" V 3050 2550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3288 2500 50  0001 C CNN
-F 3 "~" H 3250 2650 50  0001 C CNN
-	1    3250 2650
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J5
 U 1 1 5E68000B
@@ -286,7 +256,7 @@ F 1 "Conn_01x03" H 8500 1800 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8650 2050 50  0001 C CNN
 F 3 "~" H 8650 2050 50  0001 C CNN
 	1    8650 2050
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	8850 2050 9600 2050
@@ -332,8 +302,6 @@ Wire Wire Line
 	3000 2150 2750 2150
 Wire Wire Line
 	2750 2150 2750 2650
-Wire Wire Line
-	2750 2650 3100 2650
 Text Notes 1400 1700 0    50   ~ 0
 Output Jack
 $Comp
@@ -426,4 +394,8 @@ Wire Wire Line
 Connection ~ 5050 2750
 Wire Wire Line
 	5050 2750 5700 2750
+Wire Wire Line
+	2750 2650 3800 2650
+Wire Wire Line
+	6750 2850 8050 2850
 $EndSCHEMATC

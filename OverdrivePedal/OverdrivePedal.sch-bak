@@ -360,7 +360,7 @@ U 1 1 5E645B4B
 P 4600 2750
 F 0 "U1" H 4600 3117 50  0000 C CNN
 F 1 "TL072" H 4600 3026 50  0000 C CNN
-F 2 "" H 4600 2750 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4600 2750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4600 2750 50  0001 C CNN
 	1    4600 2750
 	1    0    0    -1  
@@ -371,7 +371,7 @@ U 2 1 5E646D18
 P 6000 2850
 F 0 "U1" H 6000 3217 50  0000 C CNN
 F 1 "TL072" H 6000 3126 50  0000 C CNN
-F 2 "" H 6000 2850 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6000 2850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6000 2850 50  0001 C CNN
 	2    6000 2850
 	1    0    0    -1  
@@ -382,7 +382,7 @@ U 3 1 5E64953A
 P 6000 6300
 F 0 "U1" H 5958 6346 50  0000 L CNN
 F 1 "TL072" H 5958 6255 50  0000 L CNN
-F 2 "" H 6000 6300 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6000 6300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6000 6300 50  0001 C CNN
 	3    6000 6300
 	1    0    0    -1  
