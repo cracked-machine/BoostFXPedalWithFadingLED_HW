@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name MIC5233)(type Legacy)(uri ${KIPRJMOD}/../../KicadLibrary/symbol/PWR/REG/LDO/MIC5233.lib)(options "")(descr ""))
+  (lib (name MIC5270YM5)(type Legacy)(uri ${KIPRJMOD}/../../KicadLibrary/symbol/PWR/REG/LDO/MIC5270YM5.lib)(options "")(descr ""))
+  (lib (name NCP1729)(type Legacy)(uri ${KIPRJMOD}/../../KicadLibrary/symbol/PWR/DC-DC/CHARGEPUMP/NCP1729.lib)(options "")(descr ""))
+)
