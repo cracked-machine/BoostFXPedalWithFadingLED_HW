@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 5)
+    (drawings 9)
     (tracks 105)
     (zones 0)
     (modules 30)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 0.45)
     (user_trace_width 0.6)
     (user_trace_width 0.8)
@@ -1310,6 +1310,10 @@
     )
   )
 
+  (gr_line (start 90.805 167.64) (end 59.055 167.64) (layer Dwgs.User) (width 0.15) (tstamp 5E7F3333))
+  (gr_line (start 90.805 210.185) (end 90.805 167.64) (layer Dwgs.User) (width 0.15))
+  (gr_line (start 59.055 210.185) (end 90.805 210.185) (layer Dwgs.User) (width 0.15))
+  (gr_line (start 59.055 167.64) (end 59.055 210.185) (layer Dwgs.User) (width 0.15))
   (gr_line (start 59.055 202.565) (end 59.055 167.64) (layer Edge.Cuts) (width 0.05) (tstamp 5E67A2D1))
   (gr_line (start 85.725 202.565) (end 59.055 202.565) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 85.725 167.64) (end 85.725 202.565) (layer Edge.Cuts) (width 0.05))
