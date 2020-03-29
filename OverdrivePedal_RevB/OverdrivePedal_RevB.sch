@@ -299,8 +299,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    8600 7375
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8200 7775 8025 7775
 $Comp
 L power:GNDS #PWR026
 U 1 1 5F03E5C2
@@ -313,13 +311,7 @@ F 3 "" H 8600 8425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 7075 9700 7075
-Wire Wire Line
-	9000 7175 9700 7175
-Wire Wire Line
 	9000 7575 9700 7575
-Text Label 9700 7175 2    50   ~ 0
-TIM2_CH2_PWM
 Text Label 9700 7575 2    50   ~ 0
 TIM2_CH3_PWM
 Wire Wire Line
@@ -335,23 +327,19 @@ Wire Wire Line
 Text Label 9825 7275 2    50   ~ 0
 GPIO_EXTI4_BYPASS
 NoConn ~ 9000 7475
-Wire Wire Line
-	8200 7475 7525 7475
-Wire Wire Line
-	8200 7575 7525 7575
-Text Label 7525 7475 0    50   ~ 0
+Text Label 7225 7475 0    50   ~ 0
 CLEAN_ENABLE
-Text Label 7525 7575 0    50   ~ 0
+Text Label 7225 7575 0    50   ~ 0
 FX_ENABLE
 $Comp
 L power:+3V3 #PWR024
 U 1 1 5F06DA2A
-P 7500 8125
-F 0 "#PWR024" H 7500 7975 50  0001 C CNN
-F 1 "+3V3" H 7515 8298 50  0000 C CNN
-F 2 "" H 7500 8125 50  0001 C CNN
-F 3 "" H 7500 8125 50  0001 C CNN
-	1    7500 8125
+P 6925 7525
+F 0 "#PWR024" H 6925 7375 50  0001 C CNN
+F 1 "+3V3" H 6940 7698 50  0000 C CNN
+F 2 "" H 6925 7525 50  0001 C CNN
+F 3 "" H 6925 7525 50  0001 C CNN
+	1    6925 7525
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -554,23 +542,23 @@ F 3 "" H 12550 4175 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7225 2025 6900 2025
-Text Label 6100 2025 0    50   ~ 0
+Text Label 5750 2025 0    50   ~ 0
 CLEAN_ENABLE
 Wire Wire Line
 	3800 3500 3475 3500
 Text Label 3000 3500 0    50   ~ 0
 FX_ENABLE
 Wire Wire Line
-	12250 3425 11775 3425
-Text Label 11775 3425 0    50   ~ 0
+	12250 3425 11950 3425
+Text Label 11425 3425 0    50   ~ 0
 FX_ENABLE
-Text Label 6200 7075 0    50   ~ 0
+Text Label 5775 7075 0    50   ~ 0
 SYS_NRST
 $Comp
-L Switch:SW_SPST SW_FOOT1
+L Switch:SW_SPST J4
 U 1 1 5F133D8E
 P 2425 8125
-F 0 "SW_FOOT1" H 2425 8360 50  0000 C CNN
+F 0 "J4" H 2425 8360 50  0000 C CNN
 F 1 "SW_SPST" H 2425 8269 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 2425 8125 50  0001 C CNN
 F 3 "~" H 2425 8125 50  0001 C CNN
@@ -725,13 +713,13 @@ DNF
 $Comp
 L Device:R R11
 U 1 1 5E881A0D
-P 8025 8125
-F 0 "R11" H 8100 8075 50  0000 L CNN
-F 1 "10K" H 8100 8200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7955 8125 50  0001 C CNN
-F 3 "~" H 8025 8125 50  0001 C CNN
-	1    8025 8125
-	-1   0    0    1   
+P 7350 7775
+F 0 "R11" V 7450 7700 50  0000 L CNN
+F 1 "10K" V 7250 7700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7280 7775 50  0001 C CNN
+F 3 "~" H 7350 7775 50  0001 C CNN
+	1    7350 7775
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R10
@@ -761,7 +749,7 @@ Wire Wire Line
 	6900 2575 6900 2800
 Connection ~ 6900 2025
 Wire Wire Line
-	6900 2025 6100 2025
+	6900 2025 6550 2025
 $Comp
 L Device:R R8
 U 1 1 5E8EEC39
@@ -802,17 +790,17 @@ S 12500 7125 1400 1050
 U 5EA2BA44
 F0 "IntegratedLEDDriver" 50
 F1 "IntegratedLEDDriver.sch" 50
-F2 "PWM1" I L 12500 7725 50 
+F2 "PWM1" I L 12500 7525 50 
 F3 "5V" I L 12500 7275 50 
 F4 "PWM2" I L 12500 7975 50 
 $EndSheet
 Wire Wire Line
-	12500 7725 11800 7725
+	12500 7525 11800 7525
 Wire Wire Line
 	12500 7975 11800 7975
-Text Label 11800 7975 0    50   ~ 0
+Text Label 11075 7975 0    50   ~ 0
 TIM2_CH1_PWM
-Text Label 11800 7725 0    50   ~ 0
+Text Label 11075 7525 0    50   ~ 0
 TIM2_CH2_PWM
 Wire Wire Line
 	12500 7275 12150 7275
@@ -841,43 +829,123 @@ DNF
 $Comp
 L Device:C C17
 U 1 1 5EBE9AF3
-P 7000 7225
-F 0 "C17" H 7200 7200 50  0000 C CNN
-F 1 "100nF" H 7250 7275 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7038 7075 50  0001 C CNN
-F 3 "~" H 7000 7225 50  0001 C CNN
-	1    7000 7225
+P 6575 7225
+F 0 "C17" H 6775 7200 50  0000 C CNN
+F 1 "100nF" H 6825 7275 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6613 7075 50  0001 C CNN
+F 3 "~" H 6575 7225 50  0001 C CNN
+	1    6575 7225
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6200 7075 7000 7075
+	5775 7075 6575 7075
 $Comp
 L power:GNDS #PWR0102
 U 1 1 5EBF5962
-P 7000 7475
-F 0 "#PWR0102" H 7000 7225 50  0001 C CNN
-F 1 "GNDS" H 7005 7302 50  0000 C CNN
-F 2 "" H 7000 7475 50  0001 C CNN
-F 3 "" H 7000 7475 50  0001 C CNN
-	1    7000 7475
+P 6575 7475
+F 0 "#PWR0102" H 6575 7225 50  0001 C CNN
+F 1 "GNDS" H 6580 7302 50  0000 C CNN
+F 2 "" H 6575 7475 50  0001 C CNN
+F 3 "" H 6575 7475 50  0001 C CNN
+	1    6575 7475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7000 7475 7000 7375
+	6575 7475 6575 7375
 NoConn ~ 9825 7375
-Connection ~ 7000 7075
+Connection ~ 6575 7075
 Wire Wire Line
-	7000 7075 8200 7075
+	6575 7075 8200 7075
 Wire Wire Line
 	8600 7975 8600 8425
 Wire Wire Line
-	8025 7775 8025 7975
-Wire Wire Line
-	8025 8375 8025 8275
-Wire Wire Line
-	7500 8375 8025 8375
-Wire Wire Line
-	7500 8125 7500 8375
+	6925 7525 6925 7775
 Text Label 9700 7075 2    50   ~ 0
 TIM2_CH1_PWM
+Text Label 9700 7175 2    50   ~ 0
+TIM2_CH2_PWM
+Wire Wire Line
+	9000 7175 9700 7175
+Wire Wire Line
+	9000 7075 9700 7075
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E84562F
+P 11800 7900
+AR Path="/5E6165F4/5E84562F" Ref="TP?"  Part="1" 
+AR Path="/5E84562F" Ref="TP3"  Part="1" 
+F 0 "TP3" H 11858 7972 50  0000 L CNN
+F 1 "TestPoint" H 11858 7927 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 12000 7900 50  0001 C CNN
+F 3 "~" H 12000 7900 50  0001 C CNN
+	1    11800 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E848751
+P 11800 7450
+AR Path="/5E6165F4/5E848751" Ref="TP?"  Part="1" 
+AR Path="/5E848751" Ref="TP2"  Part="1" 
+F 0 "TP2" H 11858 7522 50  0000 L CNN
+F 1 "TestPoint" H 11858 7477 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 12000 7450 50  0001 C CNN
+F 3 "~" H 12000 7450 50  0001 C CNN
+	1    11800 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 7450 11800 7525
+Connection ~ 11800 7525
+Wire Wire Line
+	11800 7525 11075 7525
+Wire Wire Line
+	11800 7900 11800 7975
+Connection ~ 11800 7975
+Wire Wire Line
+	11800 7975 11075 7975
+Wire Wire Line
+	6925 7775 7200 7775
+Wire Wire Line
+	7500 7775 8200 7775
+Wire Wire Line
+	8200 7475 7225 7475
+Wire Wire Line
+	8200 7575 7225 7575
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E874744
+P 6550 2100
+AR Path="/5E6165F4/5E874744" Ref="TP?"  Part="1" 
+AR Path="/5E874744" Ref="TP1"  Part="1" 
+F 0 "TP1" H 6608 2172 50  0000 L CNN
+F 1 "TestPoint" H 6608 2127 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6750 2100 50  0001 C CNN
+F 3 "~" H 6750 2100 50  0001 C CNN
+	1    6550 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6550 2100 6550 2025
+Connection ~ 6550 2025
+Wire Wire Line
+	6550 2025 5750 2025
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E87D864
+P 11950 3500
+AR Path="/5E6165F4/5E87D864" Ref="TP?"  Part="1" 
+AR Path="/5E87D864" Ref="TP4"  Part="1" 
+F 0 "TP4" H 12008 3572 50  0000 L CNN
+F 1 "TestPoint" H 12008 3527 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 12150 3500 50  0001 C CNN
+F 3 "~" H 12150 3500 50  0001 C CNN
+	1    11950 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11950 3500 11950 3425
+Connection ~ 11950 3425
+Wire Wire Line
+	11950 3425 11425 3425
 $EndSCHEMATC
