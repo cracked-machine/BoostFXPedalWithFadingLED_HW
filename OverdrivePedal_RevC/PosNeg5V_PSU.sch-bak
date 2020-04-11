@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 3
 Title "Power Supply"
 Date "2020-03-29"
-Rev "RevB"
+Rev "RevC"
 Comp ""
 Comment1 "U11 may be omitted if U3 can provide enough -5V current"
 Comment2 ""
@@ -368,7 +368,7 @@ P 10550 5950
 AR Path="/5E6165F4/5E8237A8" Ref="C13"  Part="1" 
 AR Path="/5E6A8284/5E8237A8" Ref="C?"  Part="1" 
 F 0 "C13" H 10665 5996 50  0000 L CNN
-F 1 "1nF" H 10665 5905 50  0000 L CNN
+F 1 "1uF" H 10665 5905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10588 5800 50  0001 C CNN
 F 3 "~" H 10550 5950 50  0001 C CNN
 	1    10550 5950
@@ -659,7 +659,7 @@ P 10525 7850
 AR Path="/5E6165F4/5E82516B" Ref="C20"  Part="1" 
 AR Path="/5E6A8284/5E82516B" Ref="C?"  Part="1" 
 F 0 "C20" H 10640 7896 50  0000 L CNN
-F 1 "1nF" H 10640 7805 50  0000 L CNN
+F 1 "1uF" H 10640 7805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10563 7700 50  0001 C CNN
 F 3 "~" H 10525 7850 50  0001 C CNN
 	1    10525 7850
