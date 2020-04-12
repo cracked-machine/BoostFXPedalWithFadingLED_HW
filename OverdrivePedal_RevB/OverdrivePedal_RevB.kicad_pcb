@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~84~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~86~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
-    (drawings 18)
+    (drawings 24)
     (tracks 424)
     (zones 0)
     (modules 61)
@@ -2448,6 +2448,12 @@
     )
   )
 
+  (gr_line (start 137.668 95.1865) (end 154.4955 94.6785) (layer Cmts.User) (width 0.15))
+  (gr_line (start 137.668 92.456) (end 137.668 95.1865) (layer Cmts.User) (width 0.15))
+  (gr_line (start 145.2245 92.3925) (end 137.668 92.456) (layer Cmts.User) (width 0.15))
+  (gr_line (start 151.13 95.885) (end 151.13 98.552) (layer Cmts.User) (width 0.15))
+  (gr_line (start 152.7175 92.7735) (end 152.7175 93.345) (layer Cmts.User) (width 0.15))
+  (gr_line (start 149.987 92.71) (end 149.987 93.4085) (layer Cmts.User) (width 0.15))
   (gr_text FSW (at 159.766 92.2528) (layer F.SilkS) (tstamp 5E8167AC)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )

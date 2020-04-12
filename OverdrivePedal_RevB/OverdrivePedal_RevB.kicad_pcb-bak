@@ -2469,7 +2469,7 @@
   (gr_text IN (at 155.194 107.442) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text "Overdrive Pedal\nRevB\n" (at 160.274 102.87 90) (layer F.SilkS)
+  (gr_text "Overdrive Pedal\nRevB\n" (at 129.3876 98.4504 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_line (start 165.7604 111.125) (end 123.2154 111.125) (layer Edge.Cuts) (width 0.05) (tstamp 5E804274))
