@@ -1,0 +1,180 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5EA3450F
+P 6225 5000
+F 0 "R?" H 6295 5046 50  0000 L CNN
+F 1 "1K" H 6295 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6155 5000 50  0001 C CNN
+F 3 "~" H 6225 5000 50  0001 C CNN
+	1    6225 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6225 4850 6225 4750
+$Comp
+L power:GNDS #PWR?
+U 1 1 5EA34516
+P 6225 5400
+F 0 "#PWR?" H 6225 5150 50  0001 C CNN
+F 1 "GNDS" H 6230 5227 50  0000 C CNN
+F 2 "" H 6225 5400 50  0001 C CNN
+F 3 "" H 6225 5400 50  0001 C CNN
+	1    6225 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EA3451C
+P 6225 4600
+F 0 "D?" V 6250 4825 50  0000 C CNN
+F 1 "LED" V 6175 4800 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6225 4600 50  0001 C CNN
+F 3 "~" H 6225 4600 50  0001 C CNN
+	1    6225 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA34522
+P 7350 5000
+F 0 "R?" H 7420 5046 50  0000 L CNN
+F 1 "1K" H 7420 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7280 5000 50  0001 C CNN
+F 3 "~" H 7350 5000 50  0001 C CNN
+	1    7350 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 4850 7350 4750
+$Comp
+L power:GNDS #PWR?
+U 1 1 5EA34529
+P 7350 5400
+F 0 "#PWR?" H 7350 5150 50  0001 C CNN
+F 1 "GNDS" H 7355 5227 50  0000 C CNN
+F 2 "" H 7350 5400 50  0001 C CNN
+F 3 "" H 7350 5400 50  0001 C CNN
+	1    7350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EA3452F
+P 7350 4600
+F 0 "D?" V 7375 4825 50  0000 C CNN
+F 1 "LED" V 7300 4800 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7350 4600 50  0001 C CNN
+F 3 "~" H 7350 4600 50  0001 C CNN
+	1    7350 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6225 5150 6225 5400
+Wire Wire Line
+	7350 5150 7350 5400
+$Comp
+L Device:R R?
+U 1 1 5EA34537
+P 5125 5000
+F 0 "R?" H 5195 5046 50  0000 L CNN
+F 1 "1K" H 5195 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5055 5000 50  0001 C CNN
+F 3 "~" H 5125 5000 50  0001 C CNN
+	1    5125 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5125 4850 5125 4750
+$Comp
+L power:GNDS #PWR?
+U 1 1 5EA3453E
+P 5125 5400
+F 0 "#PWR?" H 5125 5150 50  0001 C CNN
+F 1 "GNDS" H 5130 5227 50  0000 C CNN
+F 2 "" H 5125 5400 50  0001 C CNN
+F 3 "" H 5125 5400 50  0001 C CNN
+	1    5125 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EA34544
+P 5125 4600
+F 0 "D?" V 5150 4825 50  0000 C CNN
+F 1 "LED" V 5075 4800 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5125 4600 50  0001 C CNN
+F 3 "~" H 5125 4600 50  0001 C CNN
+	1    5125 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5125 5150 5125 5400
+Wire Wire Line
+	5125 4450 5125 4325
+Wire Wire Line
+	6225 4450 6225 4325
+Wire Wire Line
+	7350 4450 7350 4325
+Wire Wire Line
+	5125 4325 4450 4325
+Wire Wire Line
+	6225 4325 5650 4325
+Wire Wire Line
+	6725 4325 7350 4325
+Text Label 4450 4325 0    50   ~ 0
+TIM2_CH1_PWM
+Text Label 5650 4325 0    50   ~ 0
+TIM2_CH2_PWM
+Text Label 6725 4325 0    50   ~ 0
+TIM2_CH3_PWM
+$Comp
+L PAM2812:PAM2812 U?
+U 1 1 5EA34554
+P 4400 3175
+F 0 "U?" H 4400 3740 50  0000 C CNN
+F 1 "PAM2812" H 4400 3649 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering" H 4500 3275 50  0001 C CNN
+F 3 "https://docs.rs-online.com/eeb3/0900766b81268ced.pdf" H 4500 3275 50  0001 C CNN
+	1    4400 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L PAM2812:PAM2812 U?
+U 1 1 5EA3455A
+P 7550 3125
+F 0 "U?" H 7550 3690 50  0000 C CNN
+F 1 "PAM2812" H 7550 3599 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering" H 7650 3225 50  0001 C CNN
+F 3 "https://docs.rs-online.com/eeb3/0900766b81268ced.pdf" H 7650 3225 50  0001 C CNN
+	1    7550 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2650 3750 2400
+$Comp
+L power:+5V #PWR?
+U 1 1 5EA34561
+P 3750 2400
+F 0 "#PWR?" H 3750 2250 50  0001 C CNN
+F 1 "+5V" H 3765 2573 50  0000 C CNN
+F 2 "" H 3750 2400 50  0001 C CNN
+F 3 "" H 3750 2400 50  0001 C CNN
+	1    3750 2400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

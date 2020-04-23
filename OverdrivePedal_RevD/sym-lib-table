@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name MIC5233)(type Legacy)(uri ${KIPRJMOD}/../../KicadLibrary/symbol/PWR/REG/LDO/MIC5233.lib)(options "")(descr ""))
+  (lib (name MIC5270YM5)(type Legacy)(uri ${KIPRJMOD}/../../KicadLibrary/symbol/PWR/REG/LDO/MIC5270YM5.lib)(options "")(descr ""))
+  (lib (name NCP1729)(type Legacy)(uri ${KIPRJMOD}/../../KicadLibrary/symbol/PWR/DC-DC/CHARGEPUMP/NCP1729.lib)(options "")(descr ""))
+  (lib (name TPS6040x)(type Legacy)(uri ${KIPRJMOD}/../../KicadLibrary/symbol/PWR/DC-DC/CHARGEPUMP/TPS6040x.lib)(options "")(descr ""))
+  (lib (name TS5A3357)(type Legacy)(uri ${KIPRJMOD}/../../KicadLibrary/symbol/LOGIC/TS5A3357.lib)(options "")(descr ""))
+  (lib (name DG46x)(type Legacy)(uri ${KIPRJMOD}/../../KicadLibrary/symbol/LOGIC/DG46x.lib)(options "")(descr ""))
+  (lib (name audiojack2-connector_numbered)(type Legacy)(uri ${KIPRJMOD}/../../KicadLibrary/symbol/CONNECTOR/AUDIO/audiojack2-connector_numbered.lib)(options "")(descr ""))
+  (lib (name PAM2812)(type Legacy)(uri ${KIPRJMOD}/../../KicadLibrary/symbol/PWR/LEDDRIVER/PAM2812.lib)(options "")(descr ""))
+  (lib (name DG470)(type Legacy)(uri ${KIPRJMOD}/../../KicadLibrary/symbol/LOGIC/DG470.lib)(options "")(descr ""))
+)
