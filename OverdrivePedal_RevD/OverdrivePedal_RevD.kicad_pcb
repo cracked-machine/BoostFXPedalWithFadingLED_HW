@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~86~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5-0-10_14)")
 
   (general
     (thickness 1.6)
@@ -39,7 +39,7 @@
   )
 
   (setup
-    (last_trace_width 0.45)
+    (last_trace_width 0.25)
     (user_trace_width 0.45)
     (user_trace_width 0.6)
     (user_trace_width 0.8)
@@ -960,7 +960,7 @@
       (net 27 /GPIO_EXTI4_BYPASS))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 GNDS))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.wrl
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1178,7 +1178,7 @@
       (net 1 GNDS))
     (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 38 /SIGNAL_OUT))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.wrl
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1258,7 +1258,7 @@
       (net 1 GNDS))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 37 /SIGNAL_IN))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.wrl
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2080,7 +2080,6 @@
   (segment (start 154.282 83.2358) (end 155.066998 83.2358) (width 0.6) (layer F.Cu) (net 1) (status 10))
   (segment (start 154.282 84.3788) (end 154.282 82.169) (width 0.6) (layer F.Cu) (net 1) (status 30))
   (segment (start 139.6492 91.3638) (end 139.6873 91.3638) (width 0.45) (layer F.Cu) (net 1) (status 30))
-  (segment (start 145.2396 101.6508) (end 145.2626 101.6278) (width 0.45) (layer F.Cu) (net 7) (status 30))
   (via (at 146.6596 90.8304) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (segment (start 146.6596 90.8542) (end 146.6596 90.8304) (width 0.45) (layer F.Cu) (net 1))
   (segment (start 145.2336 91.1052) (end 146.4086 91.1052) (width 0.45) (layer F.Cu) (net 1) (status 10))
@@ -2182,6 +2181,7 @@
   (segment (start 156.2608 103.1748) (end 153.986 103.1748) (width 0.6) (layer F.Cu) (net 6))
   (segment (start 156.7307 103.6447) (end 156.2608 103.1748) (width 0.6) (layer F.Cu) (net 6))
   (segment (start 158.5698 103.6447) (end 156.7307 103.6447) (width 0.6) (layer F.Cu) (net 6))
+  (segment (start 145.2396 101.6508) (end 145.2626 101.6278) (width 0.45) (layer F.Cu) (net 7) (status 30))
   (segment (start 149.0336 103.1724) (end 149.036 103.1748) (width 0.45) (layer F.Cu) (net 7))
   (segment (start 145.265 103.124) (end 145.3134 103.1724) (width 0.45) (layer F.Cu) (net 7))
   (segment (start 145.3134 103.1724) (end 149.0336 103.1724) (width 0.45) (layer F.Cu) (net 7))
