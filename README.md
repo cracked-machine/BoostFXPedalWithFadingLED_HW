@@ -18,4 +18,4 @@ RevA|Without LEDs|[link](OverdrivePedal/docs/OverdrivePedal.pdf)|![](OverdrivePe
 RevC|With LEDs, SPST SolidState|[link](OverdrivePedal_RevC/docs/OverdrivePedal_RevC.pdf)|![](OverdrivePedal_RevC/docs/OverdrivePedal_RevC_Front.png)|![](OverdrivePedal_RevC/docs/OverdrivePedal_RevC_Back.png)|
 RevD|With LEDs, DPDT Relay|[link](OverdrivePedal_RevD/docs/OverdrivePedal_RevD.pdf)|![](OverdrivePedal_RevD/docs/OverdrivePedal_RevD_Front.png)|![](OverdrivePedal_RevD/docs/OverdrivePedal_RevD_Back.png)|
 
-[]![Boost Pedal with LEDs RevC](OverdrivePedal_RevC/docs/demo_thumbnail.png)](https://instagram.flhr4-2.fna.fbcdn.net/v/t50.2886-16/101602450_255417275813723_5445158146007316454_n.mp4?_nc_ht=instagram.flhr4-2.fna.fbcdn.net&_nc_cat=111&_nc_ohc=0FFzIkITj3gAX8_igVH&oe=5EFAE76D&oh=5c74af52a4f8f14f25927d407e5821c0 "Boost Pedal with LEDs RevC")
+[![Boost Pedal with LEDs RevC](OverdrivePedal_RevC/docs/demo_thumbnail.png)](https://instagram.flhr4-2.fna.fbcdn.net/v/t50.2886-16/101602450_255417275813723_5445158146007316454_n.mp4?_nc_ht=instagram.flhr4-2.fna.fbcdn.net&_nc_cat=111&_nc_ohc=0FFzIkITj3gAX8_igVH&oe=5EFAE76D&oh=5c74af52a4f8f14f25927d407e5821c0 "Boost Pedal with LEDs RevC")
