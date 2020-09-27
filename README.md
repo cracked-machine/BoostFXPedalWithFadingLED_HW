@@ -1,5 +1,7 @@
 ## Boost Pedal with LEDs
 
+- Related SW project: https://github.com/cracked-machine/BoostFXPedalWithFadingLED__SW
+
 This is a simple opamp-based gain boost circuit for guitar FX pedal.
 
 The sockets and switches are wired directly to the board, they are not panel-mounted. This makes the design simpler but construction becomes more time-consuming. Mechanical layout for the enclosure is below.
