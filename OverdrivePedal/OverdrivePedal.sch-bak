@@ -221,17 +221,6 @@ $EndComp
 Wire Wire Line
 	1700 2050 3000 2050
 Connection ~ 3800 2650
-$Comp
-L power:GND #PWR01
-U 1 1 5E6781D9
-P 2000 4000
-F 0 "#PWR01" H 2000 3750 50  0001 C CNN
-F 1 "GND" H 2005 3827 50  0000 C CNN
-F 2 "" H 2000 4000 50  0001 C CNN
-F 3 "" H 2000 4000 50  0001 C CNN
-	1    2000 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9600 2150 9500 2150
 Wire Wire Line
@@ -297,31 +286,11 @@ Wire Wire Line
 Wire Wire Line
 	1700 2150 2000 2150
 Wire Wire Line
-	2000 2150 2000 3800
-Wire Wire Line
 	3000 2150 2750 2150
 Wire Wire Line
 	2750 2150 2750 2650
 Text Notes 1400 1700 0    50   ~ 0
 Output Jack
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 5E6CB28C
-P 2350 4000
-F 0 "#FLG0103" H 2350 4075 50  0001 C CNN
-F 1 "PWR_FLAG" H 2350 4173 50  0000 C CNN
-F 2 "" H 2350 4000 50  0001 C CNN
-F 3 "~" H 2350 4000 50  0001 C CNN
-	1    2350 4000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2350 4000 2350 3800
-Wire Wire Line
-	2350 3800 2000 3800
-Connection ~ 2000 3800
-Wire Wire Line
-	2000 3800 2000 4000
 $Comp
 L Amplifier_Operational:TL072 U1
 U 1 1 5E645B4B
@@ -416,4 +385,17 @@ Wire Wire Line
 Connection ~ 1850 6625
 Wire Wire Line
 	1850 6625 1850 6750
+$Comp
+L power:GNDS #PWR0101
+U 1 1 5F65FB73
+P 2000 4000
+F 0 "#PWR0101" H 2000 3750 50  0001 C CNN
+F 1 "GNDS" H 2005 3827 50  0000 C CNN
+F 2 "" H 2000 4000 50  0001 C CNN
+F 3 "" H 2000 4000 50  0001 C CNN
+	1    2000 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2150 2000 4000
 $EndSCHEMATC
