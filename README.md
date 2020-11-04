@@ -1,5 +1,6 @@
 ## Boost Pedal with LEDs
 
+- Required Kicad Hardware library: https://github.com/cracked-machine/KicadLibrary
 - Related SW project: https://github.com/cracked-machine/BoostFXPedalWithFadingLED__SW
 
 This is a simple opamp-based gain boost circuit for guitar FX pedal.
